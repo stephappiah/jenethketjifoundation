@@ -1,6 +1,7 @@
 /* .navbar{
     background-color: white;
 } */
+
 .carousel-inner img {
   width: 100%;
   height: 100%;
@@ -18,13 +19,18 @@
   display: flex;
 }
 .svg-icon{
-  width: 6rem;
-  height: 6rem;
+  width: 5rem;
+  height: 5rem;
 }
 
 .svg-container{
   padding-right: 6rem;
 }
+
+li {
+  list-style: none;
+}
+
 /* .donate:after{
   background-color: rgba(15, 226, 241, 0.664);
   content: '';
@@ -55,6 +61,15 @@
   border-radius: 100px;
   /* background-color: rgb(29, 143, 151); */
 }
+.circle-top{
+  display: none;
+  position: fixed;
+  bottom: 6rem;
+  left: 80%;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+}
 /* .give{
   background-color: red;
   width: 4rem;
@@ -65,8 +80,10 @@
   margin: 2rem;
 }
 
-.contact-volunteer{
-  display: flex;
+
+.about-color{
+  background-color: #e7e5e1;
+  /* color: white; */
 }
 
 footer {
@@ -76,8 +93,12 @@ footer {
     width: 100%;
     height: 2rem; */
 }
- a {
-  color: rgb(46, 46, 46);
+.foot-credit{
+  background-color: #293541;
+  color: white;
+}
+.foot-credit a {
+  color: white;
 }
 .foot-text{
   font-size: 0.9rem;
@@ -103,4 +124,5 @@ footer {
   footer{
     display: block;
   }
+
 }
