@@ -1,6 +1,12 @@
-/* .navbar{
-    background-color: white;
-} */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #777;
+}
+
+.navbar{
+  background-color: white;
+}
 
 .carousel-inner img {
   width: 100%;
@@ -11,6 +17,9 @@
 }
 .lead{
   font-size: 2rem;
+}
+.display-4{
+  font-size: 3rem;
 }
 .mission{
   background-color: white;
@@ -80,10 +89,27 @@ li {
   margin: 2rem;
 }
 
-
+.cont-volunt-btn{
+  border-radius: 20px;
+}
 .about-color{
   background-color: #e7e5e1;
   /* color: white; */
+}
+.amt{
+  font-size: 0.9rem;
+}
+
+.about-us{
+  background-image: url(/img/13-jeneth-ketji-foundation-charity-donation-africa-namibia.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.projects{
+  background-image: url(/img/13-jeneth-ketji-foundation-charity-donation-africa-namibia.jpg);
+  background-size: cover;
+  color: white;
 }
 
 footer {
@@ -107,6 +133,17 @@ footer {
   font-size: 0.9rem;
 }
 
+.social-icon a {
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  padding: 5px;
+}
+
+/* .social-icon a :hover{
+  color: #008b7c;
+} */
+
+/* Smaller Screens */
 @media (min-width: 320px) and (max-width: 420px) {
   .svg-main{
     display: block;
@@ -125,4 +162,12 @@ footer {
     display: block;
   }
 
+}
+
+/* Larger Screens */
+@media (min-width: 420px) {
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
 }
