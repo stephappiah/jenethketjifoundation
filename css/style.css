@@ -1,7 +1,6 @@
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #777;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .navbar{
@@ -12,9 +11,9 @@ body {
   width: 100%;
   height: 100%;
 }
-.carousel-caption{
+/* .carousel-caption{
   bottom: 40%;
-}
+} */
 .lead{
   font-size: 2rem;
 }
@@ -61,6 +60,18 @@ li {
  margin-left: 40%;
 }
 
+.navbar-light .navbar-brand{
+  color: #2d4970;
+}
+
+.color-blue{
+  color: #2d4970;
+}
+.color-red{
+  background-color: #dc3545;
+  color: white;
+}
+
 .circle-donate{
   position: fixed;
   bottom: 2rem;
@@ -101,13 +112,13 @@ li {
 }
 
 .about-us{
-  background-image: url(/img/13-jeneth-ketji-foundation-charity-donation-africa-namibia.jpg);
+  background-image: url(/img/Grootfontein-namibia-jeneth-ketji-foundation.jpg);
   background-size: cover;
   color: white;
 }
 
 .projects{
-  background-image: url(/img/13-jeneth-ketji-foundation-charity-donation-africa-namibia.jpg);
+  background-image: url(/img/Grootfontein-namibia-jeneth-ketji-foundation.jpg);
   background-size: cover;
   color: white;
 }
@@ -135,8 +146,15 @@ footer {
 
 .social-icon a {
   border: 1px solid white;
-  border-radius: 0.4rem;
+  border-radius: 20%;
   padding: 5px;
+}
+
+.foot-credit hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.63);
 }
 
 /* .social-icon a :hover{
